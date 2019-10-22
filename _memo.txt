@@ -1,0 +1,5 @@
+docker export container_name > file_name.con
+
+docker import filen_ame.con image_name 
+
+docker build するとき、Dockerfileと同じディレクトリ内に別のファイルがあるとそれもdocker daemonに送ろうとするので遅くなる。
